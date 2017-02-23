@@ -1,5 +1,3 @@
-package co.pendara.wikievent.view;
-
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.animation.AnimatorSet;
@@ -35,15 +33,11 @@ import android.widget.AdapterView;
 import android.widget.FrameLayout;
 
 
-import co.pendara.wikievent.R;
-import co.pendara.wikievent.util.Util;
+
 
 
 import static android.view.GestureDetector.SimpleOnGestureListener;
-import static android.view.ViewGroup.LayoutParams.MATCH_PARENT;
-
-/**
- 
+import static android.view.ViewGroup.LayoutParams.MATCH_PARENT; 
 public class RippleLayout extends FrameLayout {
 
     private static final int DEFAULT_DURATION = 150;
